@@ -37,6 +37,13 @@
             text-decoration: none;
         }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentURL = window.location.href;
+            var cleanURL = currentURL.replace(".html", "");
+            history.replaceState({}, "", cleanURL);
+        });
+    </script>
 </head>
 <body>
     <a class="title" href="index.html">Zarani Software</a>

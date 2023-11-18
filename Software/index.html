@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zarani Software - Software</title>
+    <title>Zarani Software - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -37,17 +37,24 @@
             text-decoration: none;
         }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentURL = window.location.href;
+            var cleanURL = currentURL.replace(".html", "");
+            history.replaceState({}, "", cleanURL);
+        });
+    </script>
 </head>
 <body>
     <a class="title" href="index.html">Zarani Software</a>
     <div class="navbar">
-        <a href="./Software/index.html">Software</a>
+        <a href="../Software/index.html">Software</a>
         <a href="../Updates/index.html">Updates</a>
         <a href="../Socials/index.html">Socials</a>
     </div>
     <div class="content">
-        <h1>Our Software</h1>
-        <p>We're a small team dedicated to creating user-friendly software solutions. Check back soon for updates on our latest projects!</p>
+        <h1>404</h1>
+        <p>- maintenance -</p>
     </div>
 </body>
 </html>
