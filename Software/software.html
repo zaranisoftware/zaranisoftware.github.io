@@ -40,7 +40,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var currentURL = window.location.href;
-            var cleanURL = currentURL.replace("index.html", "");
+            var cleanURL = currentURL.replace("/index.html", "");
             history.replaceState({}, "", cleanURL);
         });
     </script>
@@ -48,9 +48,9 @@
 <body>
     <a class="title" href="index.html">Zarani Software</a>
     <div class="navbar">
-        <a href="Software/software.html">Software</a>
-        <a href="Updates/updates.html">Updates</a>
-        <a href="Socials/socials.html">Socials</a>
+        <a href="../Software/software.html">Software</a>
+        <a href="../Updates/updates.html">Updates</a>
+        <a href="../Socials/socials.html">Socials</a>
     </div>
     <div class="content">
         <h1>404</h1>
