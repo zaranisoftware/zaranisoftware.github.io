@@ -44,6 +44,22 @@
         .title:hover {
             transform: scale(1.1);
         }
+    
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                position: static;
+                margin: 20px 0;
+            }
+            .navbar a {
+                margin: 10px 0;
+            }
+            .title {
+                position: static;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
